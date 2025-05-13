@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Invoice</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="Logo">
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html">Login</a>
+      <a href="register.html">Register</a>
+  </nav>
+  </header>
+
+  <main class="form-container">
+    <h2>INVOICE</h2>
+    <p>Terima kasih, <span id="nama"></span>!</p>
+    <p>Pesanan anda akan segera kami kirim</p>
+    <p>Alamat: <strong id="alamat"></strong></p>
+
+    <hr>
+
+    <p><strong>Komik:</strong> <span id="book"></span></p>
+    <p><strong>Harga:</strong> Rp<span id="price"></span></p>
+    <p><strong>Volume:</strong> Vol. <span id="volume"></span></p>
+    <p><strong>Metode Pembayaran:</strong> <span id="payment"></span></p>
+
+    <p style="font-size: 0.9rem; color: gray;">Bukan sekedar komik. ini pelarian kegilaan</p>
+  </main>
+
+  <script src="js/invoice.js" defer></script>
+</body>
+</html>
